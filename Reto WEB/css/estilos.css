@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.titulo{
+    font-size: 30px;
+    font-family: "Sriracha";
+    font-family: "Balsamiq Sans";
+    float: left;
+    color: #19194b;
+    margin-top: 80px;
+    margin-left: 100px;
+    width: 400px;
+}
+.lateral{
+    min-width: 6%;
+    height: 700px;
+    box-shadow: 1px 0px 4px rgb(0,0,0,.5) ;
+    float: left;
+}
+.abecera{
+    border-left: none;
+    margin-left: 80px;
+    box-shadow: 1px 0px 4px rgb(0,0,0,.5);
+    max-width: 94%;
+    height: 280px;
+    
+    
+}
+
+.abecera a{
+    font-family: "Sriracha" ;
+    font-family: "Balsamiq Sans";
+    font-size: 20px;
+    float: right;
+    text-decoration: none;
+    margin: 0 10px 0 10px;
+    color: rgb(24, 19, 71);
+  
+}
+
+a:hover{
+    font-weight: bold;
+    
+}
+.lateral img{
+    margin: auto;
+    display: block;
+    align-content: center;
+    padding-bottom: 50px;
+}
+#unicornio{
+    margin: auto;
+    padding-bottom: 200px;
+    padding-top: 10px;
+}
+.cuadro img{
+    background-color: #e92042;
+    border-radius: 9px;
+    padding: 80px;
+    float: right;
+    margin-right: 235px;
+    margin-top: 100px;
+    box-shadow: 1px 0px 4px rgb(0,0,0,.5);
+}
+body{
+    background-color: #f7fcff;
+}
+.tarjeta {
+    box-shadow: 1px 1px 5px rgb(0,0,0,.4);
+    height: 90px;
+    width: 360px;
+    float: right;
+    margin-right: 115px;
+    margin-top: 115px;
+    border-radius: 7px;
+}
+.tarjeta img, .tarjeta_2 img {
+    float: left;
+    margin: 20px 0 20px 20px;
+}
+.tarjeta h3 , .tarjeta_2 h3 {
+    text-align: center;
+    margin: 10px 10px 0 10px;
+    font-family: "Balsamiq Sans" ;
+    color: #32326bc4;
+    padding-top: 0px;
+}
+
+.tarjeta_2 {
+    box-shadow: 1px 1px 5px rgb(0,0,0,.4);
+    height: 90px;
+    width: 380px;
+    float: right;
+    margin-right: 500px;
+    margin-top: 30px;
+    border-radius: 7px;
+}
+.desarrollo{
+    text-align: left;
+    padding-left: 80px ;
+    font-size: 22px;
+    color: #19194b;
+    font-family: "Balsamiq Sans";
+    padding-top: 15px;
+    padding-bottom: 0;
+}
+.cohete{
+    position: absolute;
+    margin-top: 290px;
+    margin-left: 870px;
+}
+
+.sobre_mi p{
+    box-shadow: 1px 1px 5px rgb(0,0,0,.4);
+    border-radius: 8px;
+    color: #32326bc4;
+    height: 80px;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.sobre_mi{
+    padding: 10px;
+    width: 380px;
+    float: left;
+    margin-top: 200px;
+    margin-left: 250px;
+    margin-bottom: 200px;
+    font-family: "Balsamiq Sans";
+    color: #19194b;
+
+}
+footer{
+    float:right;
+    background-color: #e92042;
+    height: 30px;
+    width: 90%;
+    clear: both;
+    border-top-left-radius: 15px;
+}
